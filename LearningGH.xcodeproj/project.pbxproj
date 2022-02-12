@@ -13,6 +13,7 @@
 		0951B4A027B7412F0041F409 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0951B48E27B741240041F409 /* ContentView.swift */; };
 		0951B4A127B7412F0041F409 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0951B48F27B7412F0041F409 /* Assets.xcassets */; };
 		0951B4A227B7412F0041F409 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0951B48F27B7412F0041F409 /* Assets.xcassets */; };
+		0951B4AD27B7CC270041F409 /* MyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0951B4AC27B7CC270041F409 /* MyModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0951B49427B7412F0041F409 /* LearningGH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningGH.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0951B49A27B7412F0041F409 /* LearningGH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningGH.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0951B49C27B7412F0041F409 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		0951B4AC27B7CC270041F409 /* MyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 			isa = PBXGroup;
 			children = (
 				0951B48C27B741240041F409 /* Shared */,
+				0951B4AB27B7CC080041F409 /* Preview Content */,
 				0951B49B27B7412F0041F409 /* macOS */,
 				0951B49527B7412F0041F409 /* Products */,
 			);
@@ -76,6 +79,14 @@
 				0951B49C27B7412F0041F409 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		0951B4AB27B7CC080041F409 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0951B4AC27B7CC270041F409 /* MyModel.swift */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0951B49F27B7412F0041F409 /* ContentView.swift in Sources */,
+				0951B4AD27B7CC270041F409 /* MyModel.swift in Sources */,
 				0951B49D27B7412F0041F409 /* LearningGHApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
